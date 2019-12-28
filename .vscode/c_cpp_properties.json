@@ -1,0 +1,50 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/opt/bolthur/os/lib/gcc/arm-bolthur-eabi/9.2.0/include",
+                "/opt/bolthur/os/lib/gcc/aarch64-bolthur-elf/9.2.0/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src",
+                    "/opt/bolthur/os/lib/gcc/arm-bolthur-eabi/9.2.0/include",
+                    "/opt/bolthur/os/lib/gcc/aarch64-bolthur-elf/9.2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [],
+            "forcedInclude": [
+                "${workspaceFolder}/src/include/config.h"
+            ],
+            "cStandard": "c11"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/bolthur/os/lib/gcc/arm-bolthur-eabi/9.2.0/include",
+                "/opt/bolthur/os/lib/gcc/aarch64-bolthur-elf/9.2.0/include"
+            ],
+            "defines": [],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/src",
+                    "/opt/bolthur/os/lib/gcc/arm-bolthur-eabi/9.2.0/include",
+                    "/opt/bolthur/os/lib/gcc/aarch64-bolthur-elf/9.2.0/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "forcedInclude": [
+                "${workspaceFolder}/build/src/config.h"
+            ],
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}
