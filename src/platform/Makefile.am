@@ -1,0 +1,2 @@
+
+SUBDIRS = ${platform_subdir}

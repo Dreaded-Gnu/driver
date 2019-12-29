@@ -112,7 +112,14 @@ AC_DEFINE_UNQUOTED(
 AC_CONFIG_FILES([
   Makefile
   src/Makefile
-  src/vfs/Makefile
+  src/generic/Makefile
+  src/generic/vfs/Makefile
+  src/platform/Makefile
+  src/platform/rpi/Makefile
+  src/platform/rpi/emmc/Makefile
+  src/platform/rpi/network/Makefile
+  src/platform/rpi/uart/Makefile
+  src/platform/rpi/usb/Makefile
 ])
 
 AC_OUTPUT

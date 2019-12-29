@@ -1,2 +1,2 @@
 
-SUBDIRS = vfs
+SUBDIRS = generic platform
